@@ -30,4 +30,3 @@ Due to the Security policy of some brokers such as Google Chrome, the geojson da
 <li>Shop Address</li>
 <li>Communication</li>
 </ul>
-

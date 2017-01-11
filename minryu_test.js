@@ -186,7 +186,7 @@ function getShopJsons() {
   curedproductLayer.clearLayers();
   $.getJSON("./data/curedproduct.geojson", function(data) {
       /*optional stuff to do after success */
-      var shop = L.geoJson(data,{
+      var curedproduc = L.geoJson(data,{
         pointToLayer: function(feature, latlng){
           var curedicon = new L.Icon({
             iconUrl: './icon/curedproduct.png',
@@ -199,7 +199,7 @@ function getShopJsons() {
           layer.bindPopup('Shop:' + feature.properties.title +'<br/>'+ 'Address:' + feature.properties.city + '<br/>' + 'TEL:' +feature.properties.Tel);
         }
       });
-      shop.addTo(curedproduct);
+      curedproduc.addTo(curedproductLayer);
   }).error(function() {
     alert("Unable to load Super Information, please try again later!");
   }).always(function() {

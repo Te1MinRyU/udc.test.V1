@@ -22,7 +22,7 @@ Due to the Security policy of some browsers such as Google Chrome, the geojson d
 
 ***
 <h1 font-weight:"bold"; color:#008000>Read Data Type</h1>
-<pfont-style:"italic">geojson: A remarkable geo-spatial information format</p>
+<p font-style:"italic">geojson: A remarkable geo-spatial information format</p>
 
 <h2 color:#000000>What are included:</h2>
 <ul>

@@ -16,7 +16,7 @@
 Due to the Security policy of some browsers such as Google Chrome, the geojson data may not be read into the web page. It is still under construction of modifying the relative data path in order to improve the functionalities. </p>
 
 ***
-<h1 font-weight:"bold"; color:#11286c>Used API</h1>
+<h1 style:font-weight:"bold"; color:#11286c>Used API</h1>
 <p font-style:"italic">Leaflet Map</p>
 <p font-style:"italic">Jquery</p>
 

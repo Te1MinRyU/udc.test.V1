@@ -7,7 +7,7 @@ var curedproductLayer = L.layerGroup();
 
 var baseMaps = {
   "OpenStreetMap": L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'),
-  "GoogleMap": L.tileLayer('http://mt{s}.google.com/vt/x={x}&y={y}&z={z}', {
+  "GoogleMap": L.tileLayer('https://mt{s}.google.com/vt/x={x}&y={y}&z={z}', {
     subdomains: '014'
   })
 };
